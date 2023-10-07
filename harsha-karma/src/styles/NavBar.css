@@ -1,0 +1,8 @@
+.navBar {
+    background-color: #ff7f50;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    /* padding: 1vh; */
+}
