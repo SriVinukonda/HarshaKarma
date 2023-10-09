@@ -5,7 +5,7 @@ function Button(props) {
   return (
     
     <div className='buttonBody'>
-        PLACEHOLDER
+        {props.buttonTitle}
     </div>
   );
 }

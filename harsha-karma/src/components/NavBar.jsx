@@ -2,12 +2,12 @@ import '../styles/NavBar.css'
 import Button from './Button';
 
 function NavBar() {
-  return (
+  return ( 
     <div className='navBar'>
-      <Button/>
-      <Button/>
-      <Button/>
-      <Button/>
+      <Button buttonTitle="HOME"/>
+      <Button buttonTitle="JOURNEY"/>
+      <Button buttonTitle="ABOUT"/>
+      <Button buttonTitle="TECH"/>
     </div>
   );
 }
