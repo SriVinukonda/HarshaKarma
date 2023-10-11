@@ -1,0 +1,19 @@
+.buttonBody {
+    width: 25vw;
+    /* height: 6vh; */
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    font-family: monospace;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: 0.3s;
+    /* border: 0.1vw black solid; */
+}
+
+.buttonBody:hover {
+    background-color: #FFA07A;
+    opacity: 0.5;
+}
