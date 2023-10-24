@@ -1,19 +1,16 @@
-.buttonBody {
-    width: 25vw;
-    /* height: 6vh; */
+.entryLogBody {
+    width: 100vw;
+    height: 20vh;
     margin: 0%;
     padding: 0%;
-    display: flex;
+    /* display: flex; */
     font-family: monospace;
     text-align: center;
     justify-content: center;
     align-items: center;
     color: black;
-    transition: 0.3s;
-    /* border: 0.1vw black solid; */
-}
+    background-color: rgb(34 12 64 / 60%);
+    /* opacity: 50%; */
 
-.buttonBody:hover {
-    background-color: #FFA07A;
-    opacity: 0.5;
+    /* border: 0.1vw black solid; */
 }

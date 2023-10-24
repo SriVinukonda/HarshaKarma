@@ -9,7 +9,7 @@ function Button(props) {
         {props.buttonTitle}
         <div>
           {
-          // map the props.options value, and then pass each props.options value as a prop
+          // map the props.options value, and then pass each props.options value as a prop to dropdown
           }
         </div>
     </div>

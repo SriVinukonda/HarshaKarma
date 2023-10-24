@@ -1,12 +1,13 @@
 import './App.css';
 import NavBar  from './components/NavBar';
-// import './components/nav-bar'
+import EntryLog from './components/EntryLog';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
           <NavBar/>
+          <EntryLog/>
       </header>
     </div>
   );

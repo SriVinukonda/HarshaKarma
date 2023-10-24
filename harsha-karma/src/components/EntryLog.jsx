@@ -4,8 +4,8 @@ function EntryLog(props) {
     // Send the title name in item props
   return (
     
-    <div className='buttonBody'>
-        {props.buttonTitle}
+    <div className='entryLogBody'>
+        LOL
     </div>
   );
 }
