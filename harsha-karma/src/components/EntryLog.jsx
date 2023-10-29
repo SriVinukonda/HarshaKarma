@@ -5,7 +5,7 @@ function EntryLog(props) {
   return (
     
     <div className='entryLogBody'>
-        LOL
+        <p className='date'>YYYY-MM-DD</p>
     </div>
   );
 }

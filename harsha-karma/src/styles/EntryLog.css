@@ -5,12 +5,18 @@
     padding: 0%;
     /* display: flex; */
     font-family: monospace;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    text-align: left;
+    /* justify-content: center; */
+    align-items: left;
     color: black;
-    background-color: rgb(34 12 64 / 60%);
+    background-color: rgb(177 178 181 / 80%);
     /* opacity: 50%; */
-
+    position: relative;
     /* border: 0.1vw black solid; */
+}
+.date {
+    position:absolute;
+    top: 0;
+    left: 1vw;
+     
 }
