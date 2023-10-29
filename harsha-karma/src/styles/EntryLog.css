@@ -22,14 +22,23 @@
     position:flex;
     /* top: 0; */
     /* left: 1vw; */
+    justify-content: flex-start;
      
 }
 
-.entryContent {
-    position:flex;
-    font-size: 0.75em;
+.content {
+    /* justify-content: flex-end; */
     width: 60vw;
-    justify-content: flex-end;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    background-color: aliceblue;
+    
 }
+
+.entryTitle {
+    align-self: flex-end;
+
+}
+
 
