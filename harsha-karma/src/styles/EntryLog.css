@@ -7,16 +7,29 @@
     font-family: monospace;
     text-align: left;
     /* justify-content: center; */
-    align-items: left;
+    /* align-items: left;    */
     color: black;
     background-color: rgb(177 178 181 / 80%);
     /* opacity: 50%; */
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     /* border: 0.1vw black solid; */
+    border-bottom: 0.1vh black solid;
+    /* overflow: scroll; */
 }
 .date {
-    position:absolute;
-    top: 0;
-    left: 1vw;
+    position:flex;
+    /* top: 0; */
+    /* left: 1vw; */
      
 }
+
+.entryContent {
+    position:flex;
+    font-size: 0.75em;
+    width: 60vw;
+    justify-content: flex-end;
+    text-align: right;
+}
+
