@@ -2,10 +2,16 @@ import '../styles/Button.css'
 
 function Button(props) {
     // Send the title name in item props
-    
+  
+  let handleClick = () => {
+    alert(props.routeTo)
+
+  };
+
+  
   return (
     
-    <div className='buttonBody'>
+    <div className='buttonBody' onClick={handleClick}>
         {props.buttonTitle}
         <div>
           {
