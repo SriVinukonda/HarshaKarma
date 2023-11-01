@@ -1,6 +1,6 @@
 .entryLogBody {
     width: 100%;
-    height: 20%;
+    height: 5%;
     margin: 0%;
     padding: 0%;
     /* display: flex; */
@@ -32,12 +32,12 @@
 .content {
     /* justify-content: flex-end; */
     width: 80%;
-    
     display: flex;
     flex-direction: column;
     overflow-y: hidden;
     flex: 0 0 auto; 
-    max-height: 1%;
+
+
 
     
 }
@@ -45,12 +45,17 @@
 .entryTitle {
     align-self: flex-end;
     margin-right: 3%;
+    /* max-height: 15%; */
+    /* background-color: aliceblue; */
 
 
 }
 
 .journalEntry {
-    
+    max-height: 7vh;
+    overflow-y: hidden
+
+ 
 }
 
 

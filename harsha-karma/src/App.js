@@ -6,11 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <NavBar/>
-          <EntryLog/>
-          <EntryLog/>
-          <EntryLog/>
+        <NavBar/>
+        <EntryLog/>
+        <EntryLog/>
+        <EntryLog/>
       </header>
+      
     </div>
   );
 }
