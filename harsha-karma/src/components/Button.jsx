@@ -6,13 +6,16 @@ function Button(props) {
   let handleClick = () => {
     alert(props.routeTo)
 
+
   };
 
   
   return (
     
     <div className='buttonBody' onClick={handleClick}>
-        {props.buttonTitle}
+        <a href='https://www.google.com/'>
+          {props.buttonTitle}
+        </a>
         <div>
           {
           // map the props.options value, and then pass each props.options value as a prop to dropdown
