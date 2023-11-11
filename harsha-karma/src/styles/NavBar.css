@@ -5,4 +5,15 @@
     display: flex;
     flex-direction: row;
     /* padding: 1vh; */
+    font-size: calc(10px + 2vmin);
+
 }
+.App-header {
+    background-color: #FFA07A;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    color: white;
+  }

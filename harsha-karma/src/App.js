@@ -8,10 +8,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar/>
-        <EntryLog/>
-        <EntryLog/>
-        <EntryLog/>
+
       </header>
+      <EntryLog/>
+        <EntryLog/>
+        <EntryLog/>
       
     </div>
   );
