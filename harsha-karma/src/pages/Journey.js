@@ -1,6 +1,11 @@
+import NavBar  from '../components/NavBar';
+
 let Journey = () => {
     return (
-        <p>Journey Page!</p>
+        <div>
+            <NavBar/>
+            <p>Journey Page!</p>
+        </div>
     );
 }
 

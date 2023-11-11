@@ -1,19 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Journey from './pages/Journey';
 
 
 /**
  * I will be using an SPA Format for the app, because while \
  * fast and responsibe user interaction is important, it is not highly critical
  */
+const router = createBrowserRouter([
+  {
+      path:"/",
+      element: <App />
+  },
+  {
+    path:"/journey",
+    element: <Journey />
+  }
+  
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode>  
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
