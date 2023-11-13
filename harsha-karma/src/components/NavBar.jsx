@@ -4,10 +4,10 @@ import Button from './Button';
 function NavBar() {
   return ( 
     <div className='navBar'>
-      <Button buttonTitle="HOME"/>
-      <Button buttonTitle="JOURNEY" routeTo="../pages/Journey.js"/>
-      <Button buttonTitle="ABOUT"/>
-      <Button buttonTitle="TECH"/>
+      <Button buttonTitle="HOME" routeTo="/"/>
+      <Button buttonTitle="JOURNEY" routeTo="/journey"/>
+      <Button buttonTitle="ABOUT" routeTo="/about"/>
+      <Button buttonTitle="TECH" routeTo="/tech"/>
     </div>
   );
 }

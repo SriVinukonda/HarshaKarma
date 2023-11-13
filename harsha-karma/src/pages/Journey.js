@@ -1,10 +1,10 @@
 import NavBar  from '../components/NavBar';
-
+import WebGLScene from '../components/WebGLScene';
 let Journey = () => {
     return (
         <div>
             <NavBar/>
-            <p>Journey Page!</p>
+            <WebGLScene/>
         </div>
     );
 }

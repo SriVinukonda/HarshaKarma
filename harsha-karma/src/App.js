@@ -11,8 +11,8 @@ function App() {
 
       </header>
       <EntryLog/>
-        <EntryLog/>
-        <EntryLog/>
+      <EntryLog/>
+      <EntryLog/>
       
     </div>
   );

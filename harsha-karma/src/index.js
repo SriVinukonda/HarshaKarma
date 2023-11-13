@@ -6,6 +6,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Journey from './pages/Journey';
+import About from './pages/About';
+import Tech from './pages/Tech';
 
 
 /**
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path:"/journey",
     element: <Journey />
+  },
+  {
+    path:"/about",
+    element: <About/>
+  },
+  {
+    path:"/tech",
+    element: <Tech/>
   }
   
 ]);
