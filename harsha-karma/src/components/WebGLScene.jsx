@@ -12,12 +12,12 @@ const WebGLScene = () => {
     // Create a scene
     const scene = new THREE.Scene();
     // Create a camera
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.z = 5;
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / (window.innerHeight / 5), 0.1, 1000);
+    camera.position.z = 2;
 
     // Create a renderer
     const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(window.innerWidth, window.innerHeight/5);
 
     // This line is needed because we dont want an infinite list of growing windows, obviously
     containerRef.current.textContent=''; // Re-eval later if there is a better way to do this
@@ -25,12 +25,12 @@ const WebGLScene = () => {
     containerRef.current.appendChild(renderer.domElement);
     console.log(containerRef.current)
     // Create a cube and add it to the scene
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x6644ff });
+    const geometry = new THREE.SphereGeometry();
+    const material = new THREE.MeshBasicMaterial({ color: 0xffff00,  flatShading: false});
     const cube = new THREE.Mesh(geometry, material);
-    scene.clear();
-    scene.add(cube);
 
+    scene.add(cube);
+    let fun_e = 0; // =D
     // Animation function
     const animate = () => {
       requestAnimationFrame(animate);
@@ -38,6 +38,11 @@ const WebGLScene = () => {
       // Rotate the cube
       cube.rotation.x += 0.01;
       cube.rotation.y += 0.01;
+      cube.rotation.z += 0.01;
+
+      camera.position.z= fun_e % 60;
+      fun_e += 0.1;
+
 
       // Render the scene
       renderer.render(scene, camera);
