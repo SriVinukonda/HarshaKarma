@@ -10,9 +10,7 @@ function App() {
         <NavBar/>
 
       </header>
-      <EntryLog/>
-      <EntryLog/>
-      <EntryLog/>
+
       
     </div>
   );

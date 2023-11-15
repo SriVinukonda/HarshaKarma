@@ -1,10 +1,12 @@
 import NavBar  from '../components/NavBar';
-import WebGLScene from '../components/WebGLScene';
+import EntryLog from '../components/EntryLog';
 let Journey = () => {
     return (
         <div>
             <NavBar/>
-            <WebGLScene/>
+            <EntryLog/>
+            <EntryLog/>
+            <EntryLog/>
         </div>
     );
 }
