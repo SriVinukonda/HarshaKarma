@@ -4,7 +4,7 @@ let Journey = () => {
     return (
         <div>
             <NavBar/>
-            <EntryLog/>
+            <EntryLog date="2023-May-17th" title="Intro" content="Kimura with Steve"/>
             <EntryLog/>
             <EntryLog/>
         </div>
