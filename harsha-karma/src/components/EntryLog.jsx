@@ -11,7 +11,12 @@ function EntryLog(props) {
         <div className="content">
           <p className='entryTitle'>{props.title}</p>
           <p className='journalEntry'>{props.content}</p>
-        <WebGLScene/>
+        <div className='webGlScene'>
+          <WebGLScene/>
+          <WebGLScene/>
+          <WebGLScene/>
+          <WebGLScene/>
+        </div>
         </div>
         </div>
   );

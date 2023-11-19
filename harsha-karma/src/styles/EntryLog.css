@@ -17,7 +17,8 @@
     /* border: 0.1vw black solid; */
     border-bottom: 0.1vh black solid;
     /* overflow: scroll; */
-    
+    font-size: calc(7px + 1.2vmin);
+
     
 }
 
@@ -58,4 +59,9 @@
  
 }
 
+.webGlScene {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
 
