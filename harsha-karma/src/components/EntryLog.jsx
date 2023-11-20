@@ -12,10 +12,10 @@ function EntryLog(props) {
           <p className='entryTitle'>{props.title}</p>
           <p className='journalEntry'>{props.content}</p>
         <div className='webGlScene'>
-          <WebGLScene/>
-          <WebGLScene/>
-          <WebGLScene/>
-          <WebGLScene/>
+          <WebGLScene modelPath="./sample.3dx"/>
+          <WebGLScene modelPath="./sample.3dx"/>
+          <WebGLScene modelPath="./sample.3dx"/>
+          <WebGLScene modelPath="./sample.3dx"/>
         </div>
         </div>
         </div>
