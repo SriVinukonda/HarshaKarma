@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import * as THREE from 'three';
 
 
@@ -9,12 +9,18 @@ import * as THREE from 'three';
  * YAY OPENSOURCE
 */
 
+const handCl = (camera) => {
+  camera.position.z += 1;
+  camera.position.x += 1;
+  
+};
+
 const WebGLScene = (props) => {
   const containerRef = useRef();
-  const handCl = (camera) => {
-    camera.position.z += 1;
-    camera.position.x += 1;
-  };
+
+
+  const [camera,setCamera] = useState(new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000));
+
   
   useEffect(() => {
     console.log(props.modelPath);
@@ -22,7 +28,7 @@ const WebGLScene = (props) => {
     // Create a scene
     const scene = new THREE.Scene();
     // Create a camera
-    const camera = new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000);
+    // const camera = new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000);
     camera.position.z = 2;
 
     // Create a renderer
