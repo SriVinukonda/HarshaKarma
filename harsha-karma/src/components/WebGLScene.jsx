@@ -11,13 +11,20 @@ import * as THREE from 'three';
 
 
 
+
 const WebGLScene = (props) => {
   const containerRef = useRef();
 
 
-  const [camera,setCamera] = useState(new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000));
 
-  
+  let [camera,setCamera] = useState(new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000));
+
+  let handleClick = () => {
+    console.log(camera.position);
+    let newCamera = new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000);
+    newCamera.position.set(camera.position.x,camera.position.y,camera.position.z-1)
+    setCamera(newCamera)
+  }
   useEffect(() => {
     console.log(props.modelPath);
 
@@ -26,7 +33,8 @@ const WebGLScene = (props) => {
     // Create a camera
     // const camera = new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000);
 
-    setCamera(camera.position.z = 9);
+    camera.position.set(0,0,9);
+    
 
     // Create a renderer
     const renderer = new THREE.WebGLRenderer();
@@ -62,7 +70,7 @@ const WebGLScene = (props) => {
   
 
 
-  return <div ref={containerRef} />;
+  return <div ref={containerRef} onClick={handleClick}/>; // () => camera.position.z += 1
 };
 
 export default WebGLScene;
