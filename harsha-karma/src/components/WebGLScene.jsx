@@ -9,11 +9,7 @@ import * as THREE from 'three';
  * YAY OPENSOURCE
 */
 
-const handCl = (camera) => {
-  camera.position.z += 1;
-  camera.position.x += 1;
-  
-};
+
 
 const WebGLScene = (props) => {
   const containerRef = useRef();
@@ -29,7 +25,8 @@ const WebGLScene = (props) => {
     const scene = new THREE.Scene();
     // Create a camera
     // const camera = new THREE.PerspectiveCamera(75, (window.innerWidth / 4) / (window.innerHeight / 5), 0.1, 1000);
-    camera.position.z = 2;
+
+    setCamera(camera.position.z = 9);
 
     // Create a renderer
     const renderer = new THREE.WebGLRenderer();
@@ -65,7 +62,7 @@ const WebGLScene = (props) => {
   
 
 
-  return <div ref={containerRef} onKeyDown={this.handCl()}/>;
+  return <div ref={containerRef} />;
 };
 
 export default WebGLScene;
