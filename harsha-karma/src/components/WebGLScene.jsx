@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 import * as THREE from 'three';
-import { createRoot } from 'react-dom/client'
 import { Canvas, useFrame } from '@react-three/fiber'
 import ReactDOM from 'react-dom/client';
 
@@ -12,7 +11,7 @@ function Box(props) {
   const [hovered, hover] = useState(false)
   const [clicked, click] = useState(false)
   // Subscribe this component to the render-loop, rotate the mesh every frame
-  useFrame((state, delta) => (ref.current.rotation.z += delta))
+  useFrame((state, delta) => (ref.current.rotation.x += delta))
   // Return the view, these are regular Threejs elements expressed in JSX
   return (
     <mesh
