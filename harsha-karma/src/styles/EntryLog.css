@@ -62,6 +62,6 @@
 .webGlScene {
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 

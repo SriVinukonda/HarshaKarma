@@ -4,7 +4,7 @@ let About = () => {
     return(
         <div>
             <NavBar/>
-            <p> About Page!</p>
+            
         </div>
     );
 }
