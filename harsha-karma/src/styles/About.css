@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'DMMono';
+    src: local('DMMono'), url('../media/DMMono-Regular.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.aboutBody {
+    width: 100vw;
+    font-family: DMMono;
+}
+
+.aboutBody h1 {
+    font-size: calc(15px + 2.25vmin);
+}
+
+.aboutBody p {
+    font-size: calc(10px + 1.5vmin);
+    text-align: center;
+    width: 80%;
+
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.socialLogos {
+    /* margin-left: 5vw; */
+    max-height: calc(10vmin);
+    margin-left: calc(5px + 1vmin);
+    margin-right: calc(5px + 1vmin);
+}
