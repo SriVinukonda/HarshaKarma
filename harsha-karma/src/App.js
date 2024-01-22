@@ -5,7 +5,7 @@ import Waves from './components/Waves';
 
 function App() {
   return (
-    <div className="App">
+    <html className="App">
       <header className="App-header">
         <NavBar/>
       </header>
@@ -24,7 +24,7 @@ function App() {
       </body>
 
       
-    </div>
+    </html>
   );
 }
 

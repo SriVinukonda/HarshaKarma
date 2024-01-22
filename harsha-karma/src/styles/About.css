@@ -34,3 +34,9 @@
     margin-left: calc(5px + 1vmin);
     margin-right: calc(5px + 1vmin);
 }
+
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    
+}

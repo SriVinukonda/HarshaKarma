@@ -1,6 +1,6 @@
 import '../styles/Waves.css'
 
-let Waves = () => {
+function Waves(){
     return (
         <section>
             <div className='air air1'></div>

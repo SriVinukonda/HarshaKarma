@@ -9,9 +9,9 @@ const router = createBrowserRouter([
     
 ]);
 
-let Routes = () => {
+function Routes() {
     return {};
 
-}
+};
 
 export default Routes;

@@ -1,6 +1,6 @@
 import NavBar  from '../components/NavBar';
 
-let Tech = () => {
+function Tech (){
     return(
         <div>
             <NavBar/>
