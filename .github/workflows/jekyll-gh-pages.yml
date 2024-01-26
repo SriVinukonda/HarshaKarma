@@ -57,7 +57,7 @@ jobs:
           path: ./build
           # Specifies the command to run the installation.
 
-          install_command: cd ./harsha-karma && npm install && npm ci
+          install_command: cd ./harsha-karma && npm install && npm ci && ls
           # Specifies the command to run after the install command for the build
           # build_command: # optional, default is npm run build
           
