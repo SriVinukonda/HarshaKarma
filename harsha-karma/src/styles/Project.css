@@ -1,19 +1,24 @@
 .projectBody {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
     margin-top: 2vh;
-    /* background-color: aliceblue; */
+
+    /* max-height: 50vh; */
+    /* width: 75vw; */
+    height: calc(120px + 40vmin);
+    /* height: calc(30px + 40vh); */
 }
 
 .projectImage {
     max-height: calc(30px + 15vmin);
-    justify-items: center;
+    /* justify-items: center; */
     align-self: center;    
 }
 
 .projectDescription {
-    max-width: 40vw;
-    align-content: center;
-    text-align: center;
+    /* max-height: calc(30px + 15vmin); */ 
+    /* align-content: center; */
+    /* text-align: center; */
 
 }

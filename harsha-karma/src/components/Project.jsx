@@ -8,9 +8,10 @@ function Project(props) {
   return (
     <div className='projectBody'>
     {/* {console.log(img_src)} */}
-
     <img className="projectImage" src={props.imgSrc}  alt={'failed: '+img_src}></img>
     <p className="projectDescription">{props.desc}</p>
+    <p><i>Tech: {props.tech}</i></p>
+
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.slides {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.slides p {
+    align-self: center;
+}
+
+.leftButton {
+    position: absolute;
+    align-self: center;
+    margin-left: calc(4vw);
+    font-size: xx-large;
+    left: 0;
+}
+
+.rightButton {
+    position: absolute;
+    align-self: center;
+    margin-right: calc(4vw);
+    right: 0;
+    font-size: xx-large;
+}

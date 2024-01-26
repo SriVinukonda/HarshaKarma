@@ -6,7 +6,8 @@
   }
 
 .aboutBody {
-    width: 100vw;
+    /* width: 100vw; */
+    /* height: 100vh; */
     font-family: DMMono;
 }
 
@@ -26,6 +27,7 @@
     flex-direction: row;
     align-content: space-evenly;
     align-items: center;
+    
 }
 
 .socialLogos {
@@ -36,7 +38,7 @@
 }
 
 .projectSection {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     
 }
