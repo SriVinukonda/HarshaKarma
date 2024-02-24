@@ -1,24 +1,30 @@
 .projectBody {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2vh;
-
     /* max-height: 50vh; */
     /* width: 75vw; */
-    height: calc(144px + 48vmin);
+
+    height: calc(240.50px + 30vmin);
+
+
     /* height: calc(30px + 40vh); */
 }
 
 .projectImage {
-    max-height: calc(30px + 15vmin);
+    
+    max-height: calc(40px + 15vmin);
     /* justify-items: center; */
-    align-self: center;    
+    align-self: center;
 }
 
-.repoLogos {
-    max-height: calc(4.5vmin);
-    /* margin-left: calc(5px + 1vmin);
-    margin-right: calc(5px + 1vmin); */
+.projectExtras {
+    padding-top: 1.2vh;
+
+    /* margin-top: 1vh; */
 }
+
+
+
 
