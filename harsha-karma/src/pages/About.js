@@ -63,6 +63,7 @@ function About() {
                 <br></br>
                 Notable Projects
                 <br></br>
+                
                 </h1>
                 <div className='projectSection'>
                     <Slider projects={projects}></Slider>
