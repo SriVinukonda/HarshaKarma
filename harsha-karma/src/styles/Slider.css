@@ -23,3 +23,9 @@
     right: 0;
     font-size: xx-large;
 }
+
+.leftButton:hover,.rightButton:hover {
+    font-size: calc(8.25vmin);
+
+
+}
