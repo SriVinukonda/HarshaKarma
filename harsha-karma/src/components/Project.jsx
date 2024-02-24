@@ -10,8 +10,13 @@ function Project(props) {
     {/* {console.log(img_src)} */}
     <img className="projectImage" src={props.imgSrc}  alt={'failed: '+img_src}></img>
     <p className="projectDescription">{props.desc}</p>
-    <p><i>Tech: {props.tech}</i></p>
-
+    <p>
+      <i>
+      Tech: {props.tech}
+      </i>   |
+       Links: <b><a href={props.repo}>Sourcecode</a></b>
+      
+    </p>
     </div>
   );
 }

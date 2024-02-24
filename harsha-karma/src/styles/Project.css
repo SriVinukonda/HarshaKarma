@@ -6,7 +6,7 @@
 
     /* max-height: 50vh; */
     /* width: 75vw; */
-    height: calc(120px + 40vmin);
+    height: calc(144px + 48vmin);
     /* height: calc(30px + 40vh); */
 }
 
@@ -14,5 +14,11 @@
     max-height: calc(30px + 15vmin);
     /* justify-items: center; */
     align-self: center;    
+}
+
+.repoLogos {
+    max-height: calc(4.5vmin);
+    /* margin-left: calc(5px + 1vmin);
+    margin-right: calc(5px + 1vmin); */
 }
 

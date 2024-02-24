@@ -13,6 +13,7 @@
 
 .aboutBody h1 {
     font-size: calc(15px + 2.25vmin);
+    padding-top: 2.25vmin;
 }
 
 .aboutBody p {

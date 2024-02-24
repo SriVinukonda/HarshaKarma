@@ -13,11 +13,11 @@ function App() {
       <img className='moon' src={require('./media/moon.png')}  alt='Moon'/>
         <div className='welcome-msg'>
           <h1>
-            Welcome to my portfolio site, I hope that you find the experience intuitive and inviting!
+            Hello there, my name is (Sri)Harsha, I'm currently working as a SWE at a Financial Institution
           </h1>
           <br></br>
           <h6>
-            My name is (Sri)Harsha, I'm currently working as an SWE at an FI, and my skillset is focused on building highly resilient fullstack applications!
+          And when I'm not busy re-inventing the wheel, I focus on building highly resilient fullstack applications
           </h6>
         </div>
         <Waves></Waves>
